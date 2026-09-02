@@ -1,0 +1,12 @@
+# /etc/systemd/system/cert-renew.service
+
+[Unit]
+Description=Renew Let's Encrypt certificates
+Wants=network-online.target
+After=network-online.target docker.service
+Requires=docker.service
+
+[Service]
+Type=oneshot
+WorkingDirectory=/srv/docker/letsencrypt
+ExecStart=/srv/docker/letsencrypt/cert.sh renew

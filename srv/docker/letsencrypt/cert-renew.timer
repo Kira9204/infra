@@ -1,0 +1,11 @@
+# /etc/systemd/system/cert-renew.timer
+
+[Unit]
+Description=Weekly Let's Encrypt certificate renewal
+
+[Timer]
+OnCalendar=Sun *-*-* 04:00:00
+Persistent=true
+
+[Install]
+WantedBy=timers.target

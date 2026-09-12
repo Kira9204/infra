@@ -2,7 +2,7 @@
 Type=Application
 Name=ChatGPT
 Comment=ChatGPT web application
-Exec=/usr/local/bin/brave-origin-wayland --app=https://chatgpt.com
+Exec=/usr/local/bin/brave-origin-wayland.sh --app=https://chatgpt.com
 Icon=/home/erik/Apps/icons/chatgpt-icon.svg
 Terminal=false
 Categories=Network;WebBrowser;

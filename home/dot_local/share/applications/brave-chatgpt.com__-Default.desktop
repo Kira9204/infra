@@ -1,0 +1,13 @@
+[Desktop Entry]
+Type=Application
+Name=ChatGPT
+Comment=ChatGPT web application
+Exec=/usr/local/bin/brave-origin-wayland --app=https://chatgpt.com
+Icon=/home/erik/Apps/icons/chatgpt-icon.svg
+Terminal=false
+Categories=Network;WebBrowser;
+StartupNotify=true
+# Get this value by using qdbus-qt6 org.kde.KWin /KWin queryWindowInfo
+# The desktop file name should match this name as well
+StartupWMClass=brave-chatgpt.com__-Default
+

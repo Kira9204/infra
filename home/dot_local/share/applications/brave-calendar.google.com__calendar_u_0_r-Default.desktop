@@ -1,0 +1,13 @@
+[Desktop Entry]
+Type=Application
+Name=Google Calendar
+Comment=Google Calendar web application
+Exec=/usr/local/bin/brave-origin-wayland.sh --app="https://calendar.google.com/calendar/u/0/r"
+Icon=/home/erik/Apps/icons/google-calendar-icon.svg
+Terminal=false
+Categories=Network;WebBrowser;
+StartupNotify=true
+# Get this value by using qdbus-qt6 org.kde.KWin /KWin queryWindowInfo
+# The desktop file name should match this name as well
+StartupWMClass=brave-calendar.google.com__calendar_u_0_r-Default
+

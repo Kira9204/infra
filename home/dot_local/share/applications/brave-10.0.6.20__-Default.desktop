@@ -1,0 +1,13 @@
+[Desktop Entry]
+Type=Application
+Name=Pi-KVM
+Comment=Pi-KVM web application
+Exec=/usr/local/bin/brave-origin-wayland.sh --app=https://10.0.6.20/
+Icon=/home/erik/Apps/icons/pi-kvm.png
+Terminal=false
+Categories=Network;WebBrowser;
+StartupNotify=true
+# Get this value by using qdbus-qt6 org.kde.KWin /KWin queryWindowInfo
+# The desktop file name should match this name as well
+StartupWMClass=brave-10.0.6.20__-Default
+

@@ -1,0 +1,13 @@
+[Desktop Entry]
+Type=Application
+Name=Youtube
+Comment=Youtube web application
+Exec=/usr/local/bin/brave-origin-wayland.sh --app=https://www.youtube.com/
+Icon=/home/erik/Apps/icons/youtube.webp
+Terminal=false
+Categories=Network;WebBrowser;
+StartupNotify=true
+# Get this value by using qdbus-qt6 org.kde.KWin /KWin queryWindowInfo
+# The desktop file name should match this name as well
+StartupWMClass=brave-www.youtube.com__-Default
+
